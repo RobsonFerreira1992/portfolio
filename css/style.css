@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .menu li{
+    padding: 5px 20px;
+}
+
+.slick-prev,.slick-next{
+    background-color: black;
+}
+.slick-prev {
+    background-color: black !important;
+}
+ .slick-arrow {
+    background-color: black !important;
+ }
+ 
