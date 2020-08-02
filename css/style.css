@@ -17,140 +17,7 @@ header .menu li{
  .menu li a {
     color:#08708a !important;
 }
-.titulo-principal{
-    width: 100%;
-    height: 100vh;
-    background-color: #000000;
-    text-align: center;
-    align-items: center;
-}
-.subtitulo-principal{
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 60px;
-    color: #fff;
-}
-.palavras-home {
-    -webkit-transform-style: preserve-3d;
-            transform-style: preserve-3d;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    left: 0;
-}
-.palavra-home {
-    font-family: "Shadows Into Light", cursive;
-    font-weight: bold;
-    font-size:600%;
-    color: #08708a;
-    list-style: none;
-    position: absolute;
-    -webkit-animation: aparece 2s;
-            animation: aparece 2s;
-}
-.eficiencia {
-    top: 50%;
-    left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(4px) rotate(-5deg) scale(.25);
-}
-.boas-praticas {
-    top: 70%;
-    left: 20%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(10deg) scale(.25);
-    opacity: .3;
-}
-.codigo-limpo {
-    top: 45%;
-    left: 25%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(-10deg) scale(.25);
-    opacity: .6;
-}
-.css3 {
-    top: 55%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(5deg) scale(.25);
-    opacity: .6;
-}
-.html5 {
-    top: 30%;
-    left: 65%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
-    opacity: .6;
-}
-.javascript {
-    top: 15%;
-    left: 90%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(-5deg) scale(.25);
-}
-.acessibilidade {
-    top: 30%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(3px) rotate(-5deg) scale(.25);
-    opacity: .8;
-}
-.responsivo {
-    top: 40%;
-    left: 40%;
-    -webkit-transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(3px) rotate(10deg) scale(.25);
-    opacity: .8;
-}
-.otimizacoes {
-    top: 70%;
-    left: 65%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(-5deg) scale(.25);
-    opacity: .6;
-}
-.agilidade {
-    top: 75%;
-    left: 35%;
-    -webkit-transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(1px) rotate(5deg) scale(.25);
-    opacity: .3;
-}
-.design {
-    top: 40%;
-    left: 60%;
-    -webkit-transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
-            transform: translate(-50%, -50%) translateZ(2px) rotate(10deg) scale(.25);
-    opacity: .6;
-}
-@-webkit-keyframes aparece {
-    from {
-        opacity: 0;
-        transform: scale(0.001);
-    }
-}
-@keyframes aparece {
-    from {
-        opacity: 0;
-        transform: scale(0.001);
-    }
-}
-@keyframes flutua {
-    from {
-        top: -5px;
-    }
-    to {
-        top: 5px;
-    }
-}
-@-webkit-keyframes flutua {
-    from {
-        top: -5px;
-    }
-    to {
-        top: 5px;
-    }
-}
+
 /*sobre */
 .sobre{
     font-family: 'Fjalla One', sans-serif;
@@ -159,7 +26,8 @@ header .menu li{
 }
   .cont{
     font-family: 'Fjalla One', sans-serif;
-     color: #fff;
+    color: #fff;
+    background-image: url('../img/nossa-gente-background-algar.jpg');
     
  }
 

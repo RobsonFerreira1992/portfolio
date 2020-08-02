@@ -52,23 +52,7 @@
             </div>
         </div>
     </header>
-    <div class="titulo-principal">        
-        
-        <p class="subtitulo-principal">Desenvolvedor web</p>
-        <ul class="palavras-home">
-            <li class="palavra-home eficiencia">Eficiência</li>
-            <li class="palavra-home boas-praticas">Boas práticas</li>
-            <li class="palavra-home codigo-limpo">Código limpo</li>
-            <li class="palavra-home css3">CSS3</li>
-            <li class="palavra-home html5">HTML5</li>
-            <li class="palavra-home javascript">JavaScript</li>
-            <li class="palavra-home acessibilidade">Acessibilidade</li>
-            <li class="palavra-home responsivo">Responsivo</li>
-            <li class="palavra-home otimizacoes">Otimizações</li>
-            <li class="palavra-home agilidade">Agilidade</li>
-            <li class="palavra-home design">Design</li>
-        </ul>        
-    </div>
+    
     </div>
     <main class= "container">
         <div class="row">
@@ -79,7 +63,7 @@
             <div class="col-lg-12 text-center">
                 <img class="foto-perfil"src="img/perfil.jpg" alt="" width="200px">            
             </div>
-            <div class="col-lg-6 pt-5 pb-5 scont ">
+            <div class="col-lg-6 pt-5 pb-5 scont">
                 <h2>Robson Ferreira Miranda</h2>
             </div>
             <div class="col-lg-6 pt-5 pb-5 cont">
