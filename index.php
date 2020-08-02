@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -15,7 +17,7 @@
     <header class="container">
         <div class= "row">
             <div class="col-lg-12">
-                <nav class="navbar navbar-expand-lg navbar-light ">
+                <nav class="navbar navbar-expand-lg navbar-light">
                     <a class="navbar-brand float-left" href="#">Navbar</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -50,42 +52,41 @@
             </div>
         </div>
     </header>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-            <img class="d-block w-100" src="img/01.jpg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="img/02.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="img/03.jpg" alt="Third slide">
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+    <div class="titulo-principal">        
+        
+        <p class="subtitulo-principal">Desenvolvedor web</p>
+        <ul class="palavras-home">
+            <li class="palavra-home eficiencia">Eficiência</li>
+            <li class="palavra-home boas-praticas">Boas práticas</li>
+            <li class="palavra-home codigo-limpo">Código limpo</li>
+            <li class="palavra-home css3">CSS3</li>
+            <li class="palavra-home html5">HTML5</li>
+            <li class="palavra-home javascript">JavaScript</li>
+            <li class="palavra-home acessibilidade">Acessibilidade</li>
+            <li class="palavra-home responsivo">Responsivo</li>
+            <li class="palavra-home otimizacoes">Otimizações</li>
+            <li class="palavra-home agilidade">Agilidade</li>
+            <li class="palavra-home design">Design</li>
+        </ul>        
+    </div>
     </div>
     <main class= "container">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-12 sobre pt-5 pb-5">
                 <h2>Lorem</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque expedita doloribus atque, dolor delectus repudiandae suscipit unde! Ratione natus quod consectetur sint, hic at sunt laboriosam pariatur harum nisi eos.</p>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-12 text-center">
+                <img class="foto-perfil"src="img/perfil.jpg" alt="" width="200px">            
+            </div>
+            <div class="col-lg-6 pt-5 pb-5 scont ">
+                <h2>Robson Ferreira Miranda</h2>
+            </div>
+            <div class="col-lg-6 pt-5 pb-5 cont">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci reprehenderit quaerat, accusamus cupiditate, beatae earum dolorum neque, ut id illo modi consectetur ipsa tempora. Explicabo quam id hic beatae quisquam.</p>
             </div>
         
-            <div class="slider col-lg-12">
+            <div id="tecnologias" class="slider col-lg-12">
                 <div class="col-lg-3"><img src="https://i.imgur.com/3aIutJi.png" alt="js" /></div>
                 <div class="col-lg-3"><img src="https://i.imgur.com/rWtGeQ0.png" alt="java" /></div>
                 <div class="col-lg-3"><img src="https://i.imgur.com/8946bSF.png" alt="python"/></div>
@@ -96,72 +97,31 @@
                 <div class="col-lg-3"><img src="https://i.imgur.com/Afkz5od.png" alt="dotnet" /></div>
             </div>
 
-            <section class=" col-lg-12">
+            <section  id="portfolio" class=" col-lg-12 text-center">
                 <h2>Lorem</h2>
                 
                         <div class="card col-lg-4 mb-5 float-left">
-                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1" width="200px">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1" width="200px">                          
+                        </div>
+                        <div class="card col-lg-4 mb-5 float-left">
+                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">                           
+                        </div>
+                        <div class="card col-lg-4 mb-5 float-left">
+                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">                          
+                        </div>
+                        <div class="card col-lg-4 mb-5 float-left">
+                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">                           
+                        </div>
+                        <div class="card col-lg-4 mb-5 float-left">
+                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">                            
                         </div>
                         <div class="card col-lg-4 mb-5 float-left">
                             <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card col-lg-4 mb-5 float-left">
-                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card col-lg-4 mb-5 float-left">
-                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card col-lg-4 mb-5 float-left">
-                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
-                        </div>
-                        <div class="card col-lg-4 mb-5 float-left">
-                            <img src="img/amsterdam-1200x600-1.jpg" class="card-img-top" alt="img/amsterdam-1200x600-1">
-                            <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                            <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                            </div>
+                    
                         </div>
             </section>
 
-            <section class=" col-lg-12">
+            <section id="contato" class=" col-lg-12">
             <form method="POST">
                <p>Para entrar em contato conosco,preencha o formulario abaixo:</p>
                <label>
