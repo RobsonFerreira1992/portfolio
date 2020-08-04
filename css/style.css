@@ -3,11 +3,38 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #191919;
+}
+h1,h2,h3,h4,h5 {
+    font-family: 'Fjalla One', sans-serif !important;
+    color: #08708a;
+}
 
 header .menu li{
     padding: 5px 20px;
 }
+ .menu li a {
+    color:#08708a !important;
+}
 
+/*sobre */
+.sobre{
+    font-family: 'Fjalla One', sans-serif;
+    color:#fff;
+
+}
+  .cont{
+    font-family: 'Fjalla One', sans-serif;
+    color: #fff;
+    background-image: url('../img/nossa-gente-background-algar.jpg');
+    
+ }
+
+
+
+
+/* slick*/
 .slick-prev,.slick-next{
     background-color: black;
 }
@@ -17,4 +44,7 @@ header .menu li{
  .slick-arrow {
     background-color: black !important;
  }
+
+ /* contato*/
+ 
  
