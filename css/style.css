@@ -79,8 +79,9 @@ header{
     color: #94a1aa;
 }
 .home{
-    padding: 200px 0 100px 0;
+    padding: 200px 0  0;
     background-color: #000;
+    height: 100vh;
 }
 .robson {
     margin: auto;
@@ -119,7 +120,7 @@ header{
     padding: 75px 40px;
 }
 .card:hover{
-    background-color: #ed1c53;
+    background-color:#99d836;
 }
 .card h5{
     color: white;
@@ -198,15 +199,48 @@ header{
      margin-right: auto;
  }
  .formulario {
-     color: white;
+    width: 800px;
+    margin: auto;
+    color: #fff;
+    text-align: left;
  }
+ .field {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color: #333;
+    border-radius: 30px;
+    margin-bottom: 20px;
  
-/*sobre */
+ }
+ textarea .field{
+    background: #fff;
+    color: #333;
+    padding: 10px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+ }
+ button {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: 0.5s ease-out;
+    color: #fff;
+    background:#99d836;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: auto;
+}
 
 
 
 
- /* contato*/
+
  
  @media(max-width: 768px){
     .max-header{
@@ -311,5 +345,5 @@ header{
         top: 0;
         transform: rotateZ(90deg);
     }
-
 }
+

@@ -180,7 +180,7 @@
         </div>
        <div class="container">
            <div class="row">
-                <div id="tecnologias" class="slider col-lg-12">
+                <div id="tecnologias" class="slider col-lg-12 mt-5">
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="htnl" width="80px" /></div>
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="css" width="80px" /></div>
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="js" width="80px"/></div>
@@ -198,33 +198,33 @@
                <div class="row">
                     <div class="formulario">
                         <h2>Fale Comigo</h2>
-                    <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-lg-6">
+                                    <label for="inputEmail4">Nome</label>
+                                    <input type="text" class="form-control field" id="inputEmail4">
+                                </div>
+                                <div class="form-group col-lg-6">
+                                    <label for="inputPassword4">E-mail</label>
+                                    <input type="email" class="form-control field" id="">
+                                </div>
                             </div>
-                            <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
+                            <div class="form-row">
+                                <div class="form-group col-lg-4">
+                                    <label for="inputEmail4">telefone</label>
+                                    <input type="text" class="form-control field" id="inputEmail4">
+                                </div>
+                                <div class="form-group col-lg-8">
+                                    <label for="inputPassword4">assunto</label>
+                                    <input type="text" class="form-control field" id="inputPassword4">
+                                </div>
                             </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                            <label for="inputEmail4">Email</label>
-                            <input type="email" class="form-control" id="inputEmail4">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Mensagem</label>
+                                <textarea class="form-control field" id="exampleFormControlTextarea1" rows="10"></textarea>
                             </div>
-                            <div class="form-group col-md-6">
-                            <label for="inputPassword4">Password</label>
-                            <input type="password" class="form-control" id="inputPassword4">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1">Example textarea</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Sign in</button>
-                    </form>
+                            <button type="submit" class="">Sign in</button>
+                        </form>
                         
                     </div>
                </div>
