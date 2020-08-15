@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -49,7 +50,7 @@
         </div>
     </section>
     
-    <section>
+    <section class= "page-section sobre">
            <div class="container">
                <div class="row">
                     <div class="col-lg-6">
@@ -61,11 +62,11 @@
                </div>
            </div>
        </section>
-    <section>
+    <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Our Services Genius Solutions for you</h2>
+                    <h1>Our Services Genius Solutions for you</h1>
                 </div>
                 <div class="col-lg-12 ">
                     <div class="card col-lg-4  ">
@@ -94,7 +95,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -164,7 +165,7 @@
         </div>
     </section>
 
-       <section>
+       <section class="page-section">
            <div class="container">
                <div class="row">
                     <div class="col-lg-6">
@@ -180,7 +181,7 @@
         </div>
        <div class="container">
            <div class="row">
-                <div id="tecnologias" class="slider col-lg-12 mt-5">
+                <div id="tecnologias" class="slider col-lg-12 mt-5 mb-5">
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="htnl" width="80px" /></div>
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="css" width="80px" /></div>
                     <div class="col-lg-4"><img src="img/css-3-seeklogo-01.png" alt="js" width="80px"/></div>
@@ -193,7 +194,7 @@
                 </div>   
            </div>
        </div>
-       <section>
+       <section class="contato">
            <div class="container">
                <div class="row">
                     <div class="formulario">
@@ -223,13 +224,37 @@
                                 <label for="exampleFormControlTextarea1">Mensagem</label>
                                 <textarea class="form-control field" id="exampleFormControlTextarea1" rows="10"></textarea>
                             </div>
-                            <button type="submit" class="">Sign in</button>
+                            <button type="submit" class="">Enviar</button>
                         </form>
                         
                     </div>
                </div>
            </div>
        </section>
+       <footer>
+           <div class="container">
+               <div class="row">
+                    <ul class="sociais">
+                        <li>
+                            <a href="">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>   
+               </div>
+           </div>
+            
+       </footer>
                
      
     

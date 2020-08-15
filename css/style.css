@@ -72,11 +72,11 @@ header{
 }
 .max-nav a{
     font-size: 1em;
-    color: #c5eff7;
+    color: #99d836;
 }
 .min-nav a{
     font-size: 0.875em;
-    color: #94a1aa;
+    color: #fff;
 }
 .home{
     padding: 200px 0  0;
@@ -113,6 +113,25 @@ header{
 .logo-grande{
     width: 100%;
 }
+ .page-section h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #ffffff;
+    letter-spacing: 0;
+    margin-bottom: 50px;
+ }
+ .page-section p{
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1.7;
+    font-size: 18px;
+    color: #fff;
+
+ }
+ .sobre{
+     padding: 50px 0 ;
+ }
 .card{
     background-color: black;
     float: left;
@@ -198,6 +217,13 @@ header{
      margin-left: auto;
      margin-right: auto;
  }
+ .contato {
+    background: url(../img/bg-background.jpg) #111111 top no-repeat;
+    background-size: 100% auto;
+    
+    padding-top: 100px;
+    color: #fff;
+ }
  .formulario {
     width: 800px;
     margin: auto;
@@ -237,11 +263,19 @@ header{
     margin: auto;
 }
 
+.sociais{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sociais ul li{
+    padding:  0 30px;
+}
+.sociais ul li a i{
+    font-size:30px;
+}
 
-
-
-
- 
  @media(max-width: 768px){
     .max-header{
         
