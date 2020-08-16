@@ -194,7 +194,7 @@
                 </div>   
            </div>
        </div>
-       <section class="contato">
+       <section class="contato pb-5" >
            <div class="container">
                <div class="row">
                     <div class="formulario">
@@ -231,29 +231,20 @@
                </div>
            </div>
        </section>
-       <footer>
-           <div class="container">
-               <div class="row">
-                    <ul class="sociais">
-                        <li>
-                            <a href="">
-                                <i class="fab fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <i class="fab fa-instagram"></i>
-                            </a>
-                        </li>
-                    </ul>   
-               </div>
-           </div>
+       <footer class="teste">
+           <div class="sm">
+                <a href="">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
             
+                <a href="">
+                    <i class="fab fa-github"></i>
+                </a>
+            
+                <a href="">
+                    <i class="fab fa-instagram"></i>
+                </a> 
+            </div>         
        </footer>
                
      
