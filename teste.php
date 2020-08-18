@@ -3,44 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Template</title>
-</head>
-<body class="teste">     
-    <div class="sm">
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-
-    
-    </div>
-     
-    
-    
+    <title>Document</title>
+    <style>
+    @media(max-width: 768px){
+    .max-header{
         
-              
+        height: 80px;
        
+    }
+    .min-header{
+        
+        height: 60px;
+    }
+    .container-h{
+        position: relative;
+        padding: 0 60px;
+        grid-template-areas: "log ... mnu";
+    }
+    .max-logo img{
+        width: 115px;
+    }
+    .min-logo img{
+        width: 90px;
+    }
+    .nav-bar{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #000;
+        transform: translateX(-100%);
+        transition: all 0.4s ease-out;
+    }
+    .max-nav{
+        top:80px;
+        height: calc(100vh - 80px);
+    }
+    .min-nav{
+        top:60px;
+        height: calc(100vh - 60px);
+    }
+    .menu-opened{
+        transform: translateX(0);
+    }
+    .nav-bar ul{
+        justify-content: center;
+        grid-auto-flow: row;
+        grid-gap: 80px;
+    }
+    .nav-bar li{
+        text-align: center;
+    }
+    .menu{
+        grid-area: mnu;
+        display: grid;
+        align-content: center;
+    }
+    .hamburguer{
+        position: relative;
+        width: 28px;
+        height: 3px;
+        transition: all 0.4s ease-out;
+        background-color: #99d836;
+    }
     
+    .hamburguer::before{
+        position: absolute;
+        top: -8px;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s ease-out;
+        background-color:#99d836;
+
+    }
+    .hamburguer::after{
+        position: absolute;
+        top: 8px;
+        left: 0;
+        content: "";
+        width: 100%;
+        height: 100%;
+        transition: all 0.4s ease-out;
+        background-color: #99d836;
+
+    }
+    .max-hamburguer,.max-hamburguer::before, .max-hamburguer::after{
+        background-color: #99d836;
+    }
+    .min-hamburguer,.min-hamburguer::before, .min-hamburguer::after{
+        background-color: #ffff;
+    }
+
+    .min-nav a{
+        font-size: 0.875em;
+        color: #99d836;
+    }
+    .close-btn{
+        width: 32px;
+        transform: rotateZ(45deg);
+    }
+
+    .close-btn::before , .close-btn::after{
+        top: 0;
+        transform: rotateZ(90deg);
+    }
+}
     
-
-  
-
+   </style>
+</head>
+<body>
+    <header class="max-header">
+        <div class="container-h">
+            <div class="logo max-logo">
+                <img src="" class="" alt="">
+            </div>
+            <div class="menu">
+                <div class="hamburguer max-hamburguer "></div>
+            </div>
+            <nav class="nav-bar max-nav ">
+               <ul>
+                    <li><a href="#sobre">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+               </ul>
+            </nav>
+        </div>
+    </header>
+    
 </body>
-<!-- JS, Popper.js, and jQuery -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script src="slick/slick.min.js"></script>
-<script src="js/slider.js"></script>
-<script src="js/menu.js"></script>
 </html>
+              
+
+

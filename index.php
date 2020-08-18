@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
@@ -58,6 +59,7 @@
                     </div>
                     <div class="col-lg-6">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ipsam. Quis temporibus architecto, fuga dignissimos qui corrupti necessitatibus sint, sit unde, vel quas laudantium possimus maxime! Repellendus et sint dolore.</p>
+                        <button class="btn btn-primary">cv</button>
                     </div> 
                </div>
            </div>

@@ -123,7 +123,7 @@ header{
     margin-bottom: 50px;
  }
  .page-section p{
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     font-size: 18px;
     color: #fff;
@@ -131,6 +131,7 @@ header{
  }
  .sobre{
      padding: 50px 0 ;
+     margin-top: 40px;
  }
 .card{
     background-color: black;
@@ -205,7 +206,7 @@ header{
     width: 100%;
     float: left;
     height: 500px;
-    background-image: url('../img/footer-bg.jpg');
+    background-image: url('../img/fundo-image.jpg');
     padding: 60px 0 50px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -218,7 +219,7 @@ header{
      margin-right: auto;
  }
  .contato {
-    background: url(../img/bg-background.jpg) #111111 top no-repeat;
+    background: url('../img/fundo-grafico.jpg') #111111 top no-repeat;
     background-size: 100% auto;
     
     padding-top: 100px;
@@ -264,6 +265,7 @@ header{
 }
 
 .sociais{
+    
     margin: auto;
     display: flex;
     align-items: center;
@@ -279,10 +281,11 @@ header{
 
 .teste{
     margin: 0;
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#121212;
 }
 .sm a{
     display: inline-block;
