@@ -4,6 +4,7 @@ const $navbar = document.querySelectorAll('.nav-bar')[0];
 const $menu = document.querySelectorAll('.menu')[0];
 
 
+
 window.addEventListener('scroll',toggleHeader,false);
 
 function toggleHeader(){

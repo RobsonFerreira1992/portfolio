@@ -2,6 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: #191919;
@@ -22,7 +28,6 @@ header{
     z-index: 1;
     height: 100px;
     transition: all 0.4s ease-out;
-    z-index: 2
 }
 .max-header{
     background-color: #000;
@@ -78,10 +83,17 @@ header{
     font-size: 0.875em;
     color: #fff;
 }
-.home{
-    padding: 200px 0  0;
+.ghost {
+    width: 100%;
+    height: 100px;
     background-color: #000;
-    height: 100vh;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 90vh;
 }
 .robson {
     margin: auto;
@@ -130,9 +142,33 @@ header{
 
  }
  .sobre{
-     padding: 50px 0 ;
-     margin-top: 40px;
+     padding: 40px 0;
+     margin: 10px;
  }
+ .sobre .btn1{
+    border: none;
+    text-transform: uppercase;
+    border-radius: 30px !important;
+    padding: 10px 30px;
+    display: inline-block;
+    transition: 0.5s ease-out;
+    color: #fff;
+    background: transparent;
+    border: 2px  solid #99d836;
+    box-shadow:  0 0 1em #000;
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin:  25px 0 0 0 ;
+}
+.sobre .btn1:focus{
+    outline: none;
+}
+#portfolio{
+    padding: 40px 0;
+    margin: 10px 0;
+}
+
 .card{
     background-color: black;
     float: left;
@@ -155,7 +191,7 @@ header{
 }
 
 
-/* comentario */
+
 
  nav ul li {
     display: inline-block;
@@ -178,10 +214,12 @@ header{
  }
  .cards .card-body a{
      display: block;
-    
-  
  }
- 
+ .cards .card-body a:hover {
+    display      : block !important;
+    background   : rgba(0, 0, 0, 0.7);
+    
+}
    
  
  .cards .card-body a:hover:before {
@@ -190,17 +228,24 @@ header{
     left     : 45%;
     top      : 30%;
     font-size: 80px;
-    color    : #fff;
+    color    : #99d836;
 }
  
 
  .cards .card-body img{
      width: 100%;
-     z-index: 1;
+     z-index: -1;
      position: relative;
      filter: grayscale(1);
     
      
+ }
+ .trabalhos{
+    background: url('../img/trabalho-fundo.jpg') #111111 top no-repeat;
+    background-size: 100% auto;
+    padding-top: 100px;
+    height: 400px;
+    color: #fff;
  }
  #mvv {
     width: 100%;
@@ -219,17 +264,24 @@ header{
      margin-right: auto;
  }
  .contato {
-    background: url('../img/fundo-grafico.jpg') #111111 top no-repeat;
+    background: url('../img/fundo-trabalho.jpg') #111111 top no-repeat;
     background-size: 100% auto;
-    
+   
     padding-top: 100px;
     color: #fff;
  }
+ 
  .formulario {
     width: 800px;
     margin: auto;
     color: #fff;
     text-align: left;
+    text-transform: uppercase;
+ }
+ .formulario h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
  }
  .field {
     border: none;
@@ -277,9 +329,9 @@ header{
 .sociais ul li a i{
     font-size:30px;
 }
-/*teste de icones*/
 
-.teste{
+
+.sociais{
     margin: 0;
     padding: 20px 0;
     display: flex;
@@ -287,6 +339,7 @@ header{
     justify-content: center;
     background-color:#121212;
 }
+
 .sm a{
     display: inline-block;
     font-size: 30px;
@@ -321,6 +374,13 @@ header{
     border-bottom:4px solid;
     transform: skewY(-20deg);
 }
+footer{
+    background-color:#121212;
+    padding-bottom:3px;
+}
+footer p{
+    margin: 0;
+}
 
 
 
@@ -351,7 +411,7 @@ header{
         position: absolute;
         left: 0;
         width: 100%;
-        background-color: #000;
+        background-color:#191919 ;
         transform: translateX(-100%);
         transition: all 0.4s ease-out;
     }
@@ -429,5 +489,20 @@ header{
         top: 0;
         transform: rotateZ(90deg);
     }
+    .logo-grande{
+        width: 300px;
+    }
+
+    .trabalhos {
+        background-image: none;
+        padding-top:20px;
+        height: auto;
+        color: #fff;
+    }
+    .formulario {
+        width: auto;
+        margin: 0 15px;
+    }
+      
 }
 

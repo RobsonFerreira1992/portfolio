@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
@@ -15,8 +16,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Template</title>
 </head>
-<body>     
-    <header class="max-header">
+<body id="inicio">     
+    <header  class="max-header">
         <div class="container-h">
             <div class="logo max-logo">
                 <img src="img/logo.svg" class="" alt="">
@@ -26,7 +27,7 @@
             </div>
             <nav class="nav-bar max-nav ">
                <ul>
-                    <li><a href="#sobre">Home</a></li>
+                    <li><a href="#inicio">Home</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#portfolio">Portfólio</a></li>
                     <li><a href="#contato">Contato</a></li>
@@ -34,6 +35,7 @@
             </nav>
         </div>
     </header>
+    <section class="ghost"></section>
     <section class="home">
         <div class="container">
             <div class="row">
@@ -51,15 +53,15 @@
         </div>
     </section>
     
-    <section class= "page-section sobre">
+    <section id="sobre" class= "page-section sobre">
            <div class="container">
                <div class="row">
                     <div class="col-lg-6">
                         <h1>teste</h1>
                     </div>
                     <div class="col-lg-6">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ipsam. Quis temporibus architecto, fuga dignissimos qui corrupti necessitatibus sint, sit unde, vel quas laudantium possimus maxime! Repellendus et sint dolore.</p>
-                        <button class="btn btn-primary">cv</button>
+                        <p><span>"</span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, ipsam. Quis temporibus architecto, fuga dignissimos qui corrupti necessitatibus sint, sit unde, vel quas laudantium possimus maxime! Repellendus et sint dolore.</p>
+                        <button class="btn1"> Download cv</button>
                     </div> 
                </div>
            </div>
@@ -97,29 +99,14 @@
             </div>
         </div>
     </section>
-    <section class="page-section">
+    <section id="portfolio" class="page-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Our Services Genius Solutions for you</h2>
+                    <h1>Our Services Genius Solutions for you</h1>
                 </div>
-                <nav class="col-lg-12">
-                    <ul class="filter-list f2 text-center text-uppercase">
-                        <li>
-                            <a href="http://">teste</a>
-                        </li>
-                        <li>
-                            <a href="http://">teste</a>
-                        </li>
-                        <li>
-                            <a href="http://">teste</a>
-                        </li>
-                        <li>
-                            <a href="http://">teste</a>
-                        </li>
-                    </ul>
-                </nav>
-                <div class="col-lg-12 ">
+               
+                <div class="col-lg-12  mt-5 mb-5">
                     <div class="cards col-lg-4  ">                       
                         <div class="card-body ">
                             <a href="#">
@@ -167,7 +154,7 @@
         </div>
     </section>
 
-       <section class="page-section">
+       <section  class="page-section trabalhos">
            <div class="container">
                <div class="row">
                     <div class="col-lg-6">
@@ -196,7 +183,7 @@
                 </div>   
            </div>
        </div>
-       <section class="contato pb-5" >
+       <section  id="contato" class="contato" >
            <div class="container">
                <div class="row">
                     <div class="formulario">
@@ -233,21 +220,25 @@
                </div>
            </div>
        </section>
-       <footer class="teste">
-           <div class="sm">
-                <a href="">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            
-                <a href="">
-                    <i class="fab fa-github"></i>
-                </a>
-            
-                <a href="">
-                    <i class="fab fa-instagram"></i>
-                </a> 
-            </div>         
-       </footer>
+       <section class="sociais">
+           
+                    <div class="sm">
+                        <a href="">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    
+                        <a href="">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    
+                        <a href="">
+                            <i class="fab fa-instagram"></i>
+                        </a> 
+                    </div>                     
+        </section>
+        <footer class="text-center">
+            <p><i class="fa fa-copyright" aria-hidden="true">Robson F. Miranda</i></p>
+        </footer>
                
      
     
